@@ -1,15 +1,12 @@
 import React from "react"
+import { Col, Container, Row } from "react-bootstrap"
 import Layout from "../components/layout/Layout"
 import MyJumbo from "../components/myJumbo/MyJumbo"
-import MyButton from "../components/myButton/MyButton"
-
 import "../fontawesome/css/all.min.css"
 import "./index.css"
 
-import { Container, Row, Col } from "react-bootstrap"
 
-import CV from "/" //Import you CV file here!
-import other from "/" //Import other downloadable here
+
 
 export default () => (
   <div className="App">
@@ -18,15 +15,11 @@ export default () => (
         body={
           "So you are looking for a professional, communicative & punctual software engineer who likes to keep productive."
         }
-        body2={"I can also do this cool thing if that's... needed."}
         title={"tldr; About me."}
       />
       <hr />
       <Container fluid>
-        <Row style={{ marginTop: "2rem", marginBottom: "1.5rem" }}>
-          <MyButton text={"CV download"} URL={CV} />
-          <MyButton text={"Other Downloadable"} URL={other} />
-        </Row>
+  
         <Row>
           <Col>
             <h3>Summary</h3>
@@ -34,22 +27,10 @@ export default () => (
         </Row>
         <Row>
           <Col>
-            <h5>I love Coffee. I mean, more than people normaly like coffee</h5>
+            <h5>I'm a Software Developer from Bend, OR building awesome Websites on the internet.</h5>
             <br />
             <p>
-              I'm a Software Engineer building noice Websites on the internet.
-              <br />
-              <br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
-              pariatur nobis ipsa laborum quae, fuga vel a, dolor consectetur
-              blanditiis explicabo dolorem quos sunt voluptatibus dicta commodi
-              temporibus magnam placeat.
-              <br />
-              <br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-              consequuntur. Numquam quaerat hic eum, earum perferendis totam!
-              Fugiat, explicabo placeat labore voluptatum voluptas numquam
-              repudiandae delectus animi dolorem consequatur. Reiciendis?
+              I come from a background in the health and fitness industry, and have recently jumped into the tech sector after introducing myself to the industry as a hobbyist. I bring excellent interpersonal skills and a wealth of experience in breaking down problems and finding effective and usable solutions. I strive to develop software to make life easier and more enjoyable for all people.
             </p>
           </Col>
         </Row>

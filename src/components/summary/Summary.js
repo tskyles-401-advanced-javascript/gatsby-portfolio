@@ -1,10 +1,10 @@
 import React from "react"
-
-import { Container, Row, Col } from "react-bootstrap"
-
+import { Col, Container, Row } from "react-bootstrap"
 import "../../fontawesome/css/all.min.css"
-
 import "./summary.css"
+
+
+
 
 const Summary = () => (
   <Container className="content" fluid>
@@ -38,7 +38,7 @@ const Summary = () => (
       My biggest goal as an Engineer is to never stop learning, and work on cool
       stuff. Here's a couple of things I'm good at:
     </h4>
-    <Row style={{ marginTop: "1.8rem" }}>
+    {/* <Row style={{ marginTop: "1.8rem" }}>
       <Col>
         <h4 className="hover_effect">Tagline1</h4>
         <p>
@@ -84,7 +84,7 @@ const Summary = () => (
       praesentium tenetur blanditiis repellendus facilis maiores ducimus cumque,
       nesciunt nulla non ad excepturi magni eveniet voluptatum numquam libero
       error mollitia.
-    </h4>
+    </h4> */}
   </Container>
 )
 

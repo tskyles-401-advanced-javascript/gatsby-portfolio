@@ -1,11 +1,11 @@
-import React from "react"
 import { Link } from "gatsby"
+import React from "react"
 import { Container } from "react-bootstrap"
+import image from "../../images/portfolio/cabin.png"
+import ProjectCard from "../portProjectCard/ProjectCard"
 import "./projects.css"
 
-import ProjectCard from "../portProjectCard/ProjectCard"
 
-import image from "../../images/portfolio/cabin.png"
 
 const Projects = () => (
   <React.Fragment>
@@ -20,13 +20,13 @@ const Projects = () => (
       //hostedURL: URL to the hosted version of the app*/}
       <ProjectCard
         imageSrcPath={image}
-        title={"Cool React app"}
-        date={"2019-03-28"}
+        title={"RESTy"}
+        date={"02/2020"}
         description={
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. At impedit, provident esse adipisci ipsam accusamus. Vitae quae maiores quas beatae, quis cumque culpa itaque eveniet, vero nesciunt aspernatur odit optio."
+          "React based app to test CRUD functionality against an API"
         }
-        sourceURL={"https://github.com/"}
-        hostedURL={"http://www.google.com"}
+        sourceURL={"https://github.com/tskyles-401-advanced-javascript/RESTy"}
+        hostedURL={"https://working.d2yx5do08djvpf.amplifyapp.com/"}
       />
       <Link to="/projects" className="blueViolet">
         Go to Projects page ---->

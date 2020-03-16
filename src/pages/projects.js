@@ -1,14 +1,14 @@
 import React from "react"
+import { Col, Container, Row } from "react-bootstrap"
 import Layout from "../components/layout/Layout"
-import { Container, Row, Col } from "react-bootstrap"
 import MyJumbo from "../components/myJumbo/MyJumbo"
 import ProjectCard from "../components/portProjectCard/ProjectCard"
-
-import "./index.css"
-
 import project1Picture from "../images/portfolio/cabin.png"
 import project2Picture from "../images/portfolio/cake.png"
 import project3Picture from "../images/portfolio/game.png"
+import "./index.css"
+
+
 
 /*######### PROJECT OBJECTS TEMPLATE################
 import projectPicture from ""
@@ -27,34 +27,42 @@ const projectProject = {
 //Project 1
 
 const project1 = {
-  title: "Cool React app",
-  date: "2019-03-28",
+  title: "RESTy",
+  date: "02/2020",
   decription:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat enim amet voluptatum, aut quisquam a, veritatis dolores odit adipisci corrupti tenetur optio. Aliquam incidunt dolor laborum tempore officia obcaecati.",
-  sourceURL: "https://github.com",
-  hostedURL: "http://www.google.com",
+    "React based app to test CRUD functionality against an API",
+  sourceURL: "https://github.com/tskyles-401-advanced-javascript/RESTy",
+  hostedURL: "https://working.d2yx5do08djvpf.amplifyapp.com/",
 }
 
 //Project 2
 
 const project2 = {
-  title: "Project 2 title",
-  date: "2019-03-03",
+  title: "Pocket Gallery",
+  date: "11/2019",
   decription:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat enim amet voluptatum, aut quisquam a, veritatis dolores odit adipisci corrupti tenetur optio. Aliquam incidunt dolor laborum tempore officia obcaecati.",
-  sourceURL: "https://github.com/",
-  hostedURL: "https://www.google.com",
+    "Pocket gallery is a web application that utilizes the Havard Art Museum API. Users can search for works by title or artist. Users can also create their own galleries to which they can save specific pieces to that are returned from the API. Users can update a work and it's details as well as which gallery it belongs to.",
+  sourceURL: "https://github.com/Renaissance-devs/pocket_gallery",
+  hostedURL: "http://www.pocketgallery.art/",
 }
 
 //Project 3
 
 const project3 = {
-  title: "Project 3 title",
-  date: "2019-02-12",
+  title: "DnD Character Tracker",
+  date: "10/2019",
   decription:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat enim amet voluptatum, aut quisquam a, veritatis dolores odit adipisci corrupti tenetur optio. Aliquam incidunt dolor laborum tempore officia obcaecati.",
-  sourceURL: "https://github.com/",
-  hostedURL: "https://www.google.com",
+    "A web-based service to generate DnD 5e characters and track their progress across sessions.",
+  sourceURL: "https://github.com/Team-Uno/DnD-Character-Tracker",
+  hostedURL: "https://dnd-character-tracker.netlify.com/",
+}
+
+const project4 = {
+  title: "REST API",
+  date: "10/2019",
+  decription:
+    "Node.js and Express API with authentication",
+  sourceURL: "https://github.com/tskyles-401-advanced-javascript/401-Final-API-Server/tree/master/src/models",
 }
 
 export default () => (
@@ -113,6 +121,17 @@ export default () => (
               description={project3.decription}
               sourceURL={project3.sourceURL}
               hostedURL={project3.hostedURL}
+            />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <ProjectCard
+              imageSrcPath={project3Picture}
+              title={project4.title}
+              date={project4.date}
+              description={project4.decription}
+              sourceURL={project4.sourceURL}
             />
           </Col>
         </Row>

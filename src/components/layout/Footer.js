@@ -1,20 +1,19 @@
 import React from "react"
-
-import { Container, Jumbotron, Row, Col } from "react-bootstrap"
-import { Link } from "gatsby"
-
-import "./footer.css"
+import { Col, Container, Jumbotron, Row } from "react-bootstrap"
 import "../../fontawesome/css/all.min.css"
+import "./footer.css"
+
+
 
 const Footer = () => (
   <Jumbotron fluid style={footer_styles}>
     <Container style={{ maxWidth: "960px" }}>
       <Row>
         <Col>
-          <h3>John Doe</h3>
+          <h3>Travis Skyles</h3>
           <p style={{ color: "blueviolet", fontSize: "1.3rem" }}>
             {/*TODO: ADD A MAILTO-LINK */}
-            john.doe@gmail.com
+            travis.skyles@gmail.com
           </p>
           <br />
           <p style={{ fontSize: "1.3rem" }}>
@@ -23,7 +22,7 @@ const Footer = () => (
           </p>
         </Col>
       </Row>
-      <Row>
+      {/* <Row>
         <Col
           style={{
             textDecoration: "underline",
@@ -51,14 +50,14 @@ const Footer = () => (
             <span className="link_styles">Projects</span>
           </Link>
         </Col>
-      </Row>
+      </Row> */}
 
       {/* TODO: Make use of the SocialRow component to make the below icons obsolete */}
 
       <Row className="footer_social text-center">
         <Col>
           <a
-            href="https://www.github.com/"
+            href="https://github.com/tskyles"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -67,7 +66,7 @@ const Footer = () => (
         </Col>
         <Col>
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/travisskyles/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -76,7 +75,7 @@ const Footer = () => (
         </Col>
         <Col>
           <a
-            href="https://twitter.com/"
+            href="https://twitter.com/SkylesTravis"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -84,7 +83,7 @@ const Footer = () => (
           </a>
         </Col>
 
-        <Col>
+        {/* <Col>
           <a
             href="https://www.instagram.com/"
             target="_blank"
@@ -125,7 +124,7 @@ const Footer = () => (
             {" "}
             <span className="blueViolet">& Gatsby</span>
           </a>
-        </Col>
+        </Col> */}
       </Row>
     </Container>
   </Jumbotron>

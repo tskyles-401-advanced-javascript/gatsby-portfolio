@@ -34,15 +34,15 @@ export default () => (
             </p>
           </Col>
         </Row>
-        <hr />
+        {/* <hr /> */}
         {/* This is the beginning of the career section*/}
-        <Row>
+        {/* <Row>
           <Col>
             <h3>Past work experience</h3>
           </Col>
-        </Row>
+        </Row> */}
         {/* Position number 1*/}
-        <Row>
+        {/* <Row>
           <Col>
             <h5>Software Engineer</h5>
           </Col>
@@ -61,9 +61,9 @@ export default () => (
             </p>
           </Col>
         </Row>
-        <hr />
+        <hr /> */}
         {/* SW intern Position*/}
-        <Row>
+       {/* <Row>
           <Col>
             <h5>Software Engineer Intern</h5>
           </Col>
@@ -80,17 +80,17 @@ export default () => (
               porro. Culpa, laboriosam! Qui quo provident aperiam et ullam odio
               ex.
             </p>
-          </Col>
+          </Col> 
         </Row>
-        <hr />
+        <hr /> */}
         {/* This is the beginning of the education section*/}
-        <Row>
+        {/* <Row>
           <Col>
             <h3>Education</h3>
           </Col>
-        </Row>
+        </Row> */}
         {/* Masters Degreee*/}
-        <Row>
+        {/* <Row>
           <Col>
             <h5>MSc. ACME studies</h5>
           </Col>
@@ -98,8 +98,8 @@ export default () => (
         <Row>
           <Col>ACME University, ACME City, US</Col>
           <Col>2009.08 - 2015.08</Col>
-        </Row>
-        <Row>
+        </Row> */}
+        {/* <Row>
           <Col>
             <p style={{ marginTop: "1rem" }}>
               <strong>Specialization:</strong>
@@ -109,7 +109,7 @@ export default () => (
               necessitatibus iure eius praesentium? Fugit!
             </p>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </Layout>
   </div>

@@ -1,14 +1,14 @@
 import React from "react"
-import { Row, Col } from "react-bootstrap"
-
+import { Col, Row } from "react-bootstrap"
 import "./socialRow.css"
+
 
 export default () => (
   <Row className="jumbo_social text-center">
     <Col>
       <a
         style={{ color: "#000" }}
-        href="https://www.github.com/"
+        href="https://github.com/tskyles"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -18,7 +18,7 @@ export default () => (
     <Col>
       <a
         style={{ color: "#000" }}
-        href="https://www.linkedin.com/"
+        href="https://www.linkedin.com/in/travisskyles/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -28,7 +28,7 @@ export default () => (
     <Col>
       <a
         style={{ color: "#000" }}
-        href="https://twitter.com/"
+        href="https://twitter.com/SkylesTravis"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -36,7 +36,7 @@ export default () => (
       </a>
     </Col>
 
-    <Col>
+    {/* <Col>
       <a
         style={{ color: "#000" }}
         href="https://www.instagram.com/"
@@ -67,6 +67,6 @@ export default () => (
       >
         <i className="fab fa-angellist hover_effect" />
       </a>
-    </Col>
+    </Col> */}
   </Row>
 )
